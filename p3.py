@@ -6,7 +6,7 @@ if project >= 50 and internal >=50 and external >= 50:
     print(total)
     if(total>90):
         print("A grade")
-    elif(80> total <=90):
+    elif(total>80 and total<=90):
         print("B grade")
     else:
         print("C grade")
